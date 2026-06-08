@@ -3,7 +3,7 @@
   import './Chat.css'
   import { useLocation } from "react-router-dom";
 
-  const socket = io("http://localhost:3000");
+  const socket = io("https://chat-app-n455.onrender.com");
 
   const Chat =() => {
     const location = useLocation();
