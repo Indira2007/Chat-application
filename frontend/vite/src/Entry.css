@@ -42,6 +42,7 @@ background: linear-gradient(
   border: 1px solid rgba(0, 0, 0, 0.12);
     background: rgba(255, 255, 255, 0.08);
 color: white;
+
 }
 
 .name-input {
@@ -50,4 +51,19 @@ color: white;
 
 .btn-join {
 background: #5865f2;
+}
+
+select {
+  width: 100%;
+  padding: 10px 12px;
+  background: #434a5e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+select option {
+  background: #434a5e;
+  color: white;
 }
